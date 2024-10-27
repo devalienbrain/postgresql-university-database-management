@@ -62,3 +62,9 @@ VALUES
 INSERT INTO students (student_name, age, email, frontend_mark, backend_mark, status)
 VALUES ('YourName', YourAge, 'YourEmail', YourMark, YourMark, NULL);
 
+-- Query 2: Retrieve the names of all students enrolled in the 'Next.js' course
+SELECT s.student_name
+FROM students s
+JOIN enrollment e ON s.student_id = e.student_id
+JOIN courses c ON e.course_id = c.course_id
+WHERE c.course_name = 'Next.js';
