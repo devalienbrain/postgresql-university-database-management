@@ -42,4 +42,10 @@ Aggregate functions calculate values across multiple rows, often used with `GROU
 - **SUM**: Adds values.
 - **AVG**: Calculates averages.
 
+### 11. What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
+An index speeds up data retrieval by allowing PostgreSQL to locate rows faster, especially in large tables, without scanning all rows.
+
+### 12. Explain the concept of a PostgreSQL view and how it differs from a table.
+A view is a virtual table based on a SQL query. Unlike a physical table, it doesn’t store data; instead, it displays results dynamically from underlying tables.
+
 ---
