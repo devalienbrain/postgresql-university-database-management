@@ -54,3 +54,11 @@ VALUES
     (1, 2),
     (2, 1),
     (3, 2);
+
+
+-- Solutions to the Queries
+
+-- Query 1: Insert a new student record
+INSERT INTO students (student_name, age, email, frontend_mark, backend_mark, status)
+VALUES ('YourName', YourAge, 'YourEmail', YourMark, YourMark, NULL);
+
