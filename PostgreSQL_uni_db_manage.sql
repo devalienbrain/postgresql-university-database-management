@@ -89,3 +89,20 @@ SELECT student_name
 FROM students
 ORDER BY student_id
 LIMIT 2 OFFSET 2;
+
+
+
+-- Query 6: Retrieve course names and number of students enrolled in each course
+SELECT c.course_name, COUNT(e.student_id) AS students_enrolled
+FROM courses c
+LEFT JOIN enrollment e ON c.course_id = e.course_id
+GROUP BY c.course_name;
+
+
+-- Query 7: Calculate the average age of all students
+SELECT AVG(age) AS average_age FROM students;
+
+-- Query 8: Retrieve names of students whose email contains 'example.com'
+SELECT student_name
+FROM students
+WHERE email LIKE '%example.com%';
