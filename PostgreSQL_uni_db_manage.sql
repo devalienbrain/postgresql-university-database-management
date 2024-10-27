@@ -81,3 +81,11 @@ WHERE (frontend_mark + backend_mark) = (
 -- Query 4: Delete all courses with no enrollments
 DELETE FROM courses
 WHERE course_id NOT IN (SELECT DISTINCT course_id FROM enrollment);
+
+
+
+-- Query 5: Retrieve student names using LIMIT and OFFSET
+SELECT student_name
+FROM students
+ORDER BY student_id
+LIMIT 2 OFFSET 2;
