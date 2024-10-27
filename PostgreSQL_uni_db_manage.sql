@@ -68,3 +68,16 @@ FROM students s
 JOIN enrollment e ON s.student_id = e.student_id
 JOIN courses c ON e.course_id = c.course_id
 WHERE c.course_name = 'Next.js';
+
+
+-- Query 3: Update the status of the student with the highest total marks
+UPDATE students
+SET status = 'Awarded'
+WHERE (frontend_mark + backend_mark) = (
+    SELECT MAX(frontend_mark + backend_mark) FROM students
+);
+
+
+-- Query 4: Delete all courses with no enrollments
+DELETE FROM courses
+WHERE course_id NOT IN (SELECT DISTINCT course_id FROM enrollment);
