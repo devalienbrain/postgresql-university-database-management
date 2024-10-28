@@ -1,11 +1,11 @@
 # Project (PostgreSQL)
 
 **Project Description**  
-In this project, I will work with PostgreSQL, a powerful open-source relational database management system. My task involves creating 03 tables based on the provided sample data and then writing and executing queries to perform various database operations such as creating, reading, updating, and deleting data. Additionally, I will explore concepts like LIMIT and OFFSET, JOIN operations, GROUP BY, aggregation, and LIKE.
+In this project, I worked with PostgreSQL, a powerful open-source relational database management system. My task involves creating 03 tables based on the provided sample data and then writing and executing queries to perform various database operations such as creating, reading, updating, and deleting data. Additionally, I explored the concepts like LIMIT and OFFSET, JOIN operations, GROUP BY, aggregation, and LIKE.
 
 ---
 
-**Instructions:**
+**Guidelines:**
 
 1. **Database Setup:**
 
@@ -153,23 +153,6 @@ Retrieve the names of students whose email addresses contain 'example.com'.
 
 ---
 
-### Prepare the SQL code for table creation, sample data insertion, and the eight queries in a text document or your preferred format. Include comments explaining each query's purpose and functionality. Saved my document as "PostgreSQL_uni_db_manage.sql" or any other appropriate name.
-
----
-
-### Questions & Answer (10 Questions):
-
-1. What is PostgreSQL?
-2. What is the purpose of a database schema in PostgreSQL?
-3. Explain the primary key and foreign key concepts in PostgreSQL.
-4. What is the difference between the VARCHAR and CHAR data types?
-5. Explain the purpose of the WHERE clause in a SELECT statement.
-6. What are the LIMIT and OFFSET clauses used for?
-7. How can you perform data modification using UPDATE statements?
-8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
-9. Explain the GROUP BY clause and its role in aggregation operations.
-10.   How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
-11.   What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
-12.   Explain the concept of a PostgreSQL view and how it differs from a table.
+### Prepared the SQL code for table creation, sample data insertion, and the eight queries in a text document or my preferred format. Include comments explaining each query's purpose and functionality. Saved my document as "PostgreSQL_uni_db_manage.sql".
 
 ---
